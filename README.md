@@ -21,16 +21,19 @@ b) for every charter we run another loop from character's current position and t
 	ii)convert the temp variable to int.    
 	iii)Copy the character for "temp" times.  
 c) return result.  
-
+# Test Case  
 Test cases:(Positive)  
 1) Input value: "aaaa" output:"a4" 
-
+![alt text](https://github.com/Atreyarao/Encode/blob/master/Images/Screenshot%20(389).png)  
 2) Input Value:"a" output: "a"  
+![alt text](https://github.com/Atreyarao/Encode/blob/master/Images/Screenshot%20(395).png)
 3) Input Value: "" output :""  
 
 Test Cases:(Negative)
 1) Input value:"A" output:"Enter lowercase string";  
-2) Input Value:"1123" output:"Numbers not allowed";  
+![alt text](https://github.com/Atreyarao/Encode/blob/master/Images/Screenshot%20(393).png)
+2) Input Value:"1123" output:"Numbers not allowed"; 
+![alt text](https://github.com/Atreyarao/Encode/blob/master/Images/Screenshot%20(394).png)
 4) Input Value:"abcd" output:"abcd" (unique value will return the same string);  
 
 
