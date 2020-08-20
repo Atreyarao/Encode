@@ -8,8 +8,8 @@ Hosted: Heroku.
 Link: https://encode1.herokuapp.com/  
 
 # Algorithm:  
-The input string to the route "/encode" will count the continues occurring characters and then add the count to the particular character (it will only count the sub-string and not sub sequence). 
-If we send the encoded string to the "/decode" will do the opposite, it will take the first character and count the next number and and print the charter for the giver number of time and return result.   
+The input string to the route "/encode" will count the continues occurring characters and then add the count to the particular character (it will only count the sub-string and not sub sequence).   
+If we send the encoded string to the "/decode" will do the opposite, it will take the first character and count the next number and and print the charter for the giver number of time and return result.     
 
 Encoding:
 a) check if it is lowercase if not send error code -1.  
