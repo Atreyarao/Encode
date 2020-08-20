@@ -1,6 +1,11 @@
 # Encode
 In this project the front end will take a string and encode it and make it a smaller string (will not work for unique values,will return the same string).  
 Once we get the encoded string we can decode it as well which will give back the exact result.   
+# Project Detail:
+Front End: React Js, Bootstrap,React Animation,Axios.  
+Back End: Node Js,Express Js,Cors.    
+Hosted: Heroku.  
+Link: https://encode1.herokuapp.com/  
 
 # Algorithm:  
 The input string to the route "/encode" will count the continues occurring characters and then add the count to the particular character (it will only count the sub-string and not sub sequence). 
