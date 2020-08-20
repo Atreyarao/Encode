@@ -11,15 +11,15 @@ Link: https://encode1.herokuapp.com/
 The input string to the route "/encode" will count the continues occurring characters and then add the count to the particular character (it will only count the sub-string and not sub sequence).   
 If we send the encoded string to the "/decode" will do the opposite, it will take the first character and count the next number and and print the charter for the giver number of time and return result.     
 
-Encoding:
+Encoding:  
 a) check if it is lowercase if not send error code -1.  
 b)Run a loop from 1->str.length-1 pick a char.   
-	i)add data to "temp" variable if it repeats till it finds unique and keep a count of it in "count".  
+     	i)add data to "temp" variable if it repeats till it finds unique and keep a count of it in "count".  
 	ii)concat charter with count to final variable "ans".  
 	iii) if encounter a number return error code "-2".  
 c)return the variable "ans".  
 
-Decoding:
+Decoding:  
 a) Get the string and start iteration from 0 to string.length-1.  
 b) for every charter we run another loop from character's current position and till the end of the loop.  
 	i)In each loop store all the numeric value in a varible called "temp".  
